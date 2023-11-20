@@ -65,10 +65,10 @@ public class MonaMovingPlatformEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaMovingPlatform.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaMovingPlatform.Link1);
-        //}
+        if (GUILayout.Button(MonaMovingPlatform.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaMovingPlatform.Link1);
+        }
 
         GUILayout.Space(1);
 

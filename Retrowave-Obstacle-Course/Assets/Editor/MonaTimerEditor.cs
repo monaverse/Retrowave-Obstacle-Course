@@ -65,10 +65,10 @@ public class MonaTimerEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaTimer.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaTimer.Link1);
-        //}
+        if (GUILayout.Button(MonaTimer.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaTimer.Link1);
+        }
 
         GUILayout.Space(1);
 

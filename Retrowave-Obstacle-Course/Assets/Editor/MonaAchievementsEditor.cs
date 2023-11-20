@@ -53,8 +53,8 @@ public class MonaAchievementsEditor : Editor
 
         // CREDITS TEXT
 
-        EditorGUILayout.LabelField(MonaAchievements.ModuleName, textStyle, GUILayout.Height(textSize + 4));
-        EditorGUILayout.LabelField(MonaAchievements.ModuleCreator, textStyle, GUILayout.Height(textSize + 4));
+        EditorGUILayout.LabelField(MonaAchievements.Text1, textStyle, GUILayout.Height(textSize + 4));
+        EditorGUILayout.LabelField(MonaAchievements.Text2, textStyle, GUILayout.Height(textSize + 4));
 
         // BUTTONS STYLE
 
@@ -65,10 +65,10 @@ public class MonaAchievementsEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaAchievements.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaAchievements.Link1);
-        //}
+        if (GUILayout.Button(MonaAchievements.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaAchievements.Link1);
+        }
 
         GUILayout.Space(1);
 

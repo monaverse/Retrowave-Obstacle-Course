@@ -65,10 +65,10 @@ public class MonaStartGateEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaStartGate.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaStartGate.Link1);
-        //}
+        if (GUILayout.Button(MonaStartGate.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaStartGate.Link1);
+        }
 
         GUILayout.Space(1);
 

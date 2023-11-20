@@ -65,10 +65,10 @@ public class MonaSuperJumpPowerupEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaSuperJumpPowerup.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaSuperJumpPowerup.Link1);
-        //}
+        if (GUILayout.Button(MonaSuperJumpPowerup.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaSuperJumpPowerup.Link1);
+        }
 
         GUILayout.Space(1);
 

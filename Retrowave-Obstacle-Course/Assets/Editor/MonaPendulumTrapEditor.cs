@@ -65,10 +65,10 @@ public class MonaPendulumTrapEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaPendulumTrap.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaPendulumTrap.Link1);
-        //}
+        if (GUILayout.Button(MonaPendulumTrap.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaPendulumTrap.Link1);
+        }
 
         GUILayout.Space(1);
 

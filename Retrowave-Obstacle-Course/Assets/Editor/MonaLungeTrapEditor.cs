@@ -65,10 +65,10 @@ public class MonaLungeTrapEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaLungeTrap.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaLungeTrap.Link1);
-        //}
+        if (GUILayout.Button(MonaLungeTrap.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaLungeTrap.Link1);
+        }
 
         GUILayout.Space(1);
 

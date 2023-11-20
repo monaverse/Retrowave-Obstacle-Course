@@ -65,10 +65,10 @@ public class MonaAntiGravityEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaAntiGravity.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaAntiGravity.Link1);
-        //}
+        if (GUILayout.Button(MonaAntiGravity.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaAntiGravity.Link1);
+        }
 
         GUILayout.Space(1);
 

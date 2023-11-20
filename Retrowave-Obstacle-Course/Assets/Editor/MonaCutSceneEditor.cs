@@ -65,10 +65,10 @@ public class MonaCutSceneEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaCutScene.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaCutScene.Link1);
-        //}
+        if (GUILayout.Button(MonaCutScene.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaCutScene.Link1);
+        }
 
         GUILayout.Space(1);
 

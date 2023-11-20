@@ -65,10 +65,10 @@ public class MonaRespawnEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaRespawn.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaRespawn.Link1);
-        //}
+        if (GUILayout.Button(MonaRespawn.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaRespawn.Link1);
+        }
 
         GUILayout.Space(1);
 

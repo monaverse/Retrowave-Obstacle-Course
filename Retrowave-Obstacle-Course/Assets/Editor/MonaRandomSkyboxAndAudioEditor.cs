@@ -65,10 +65,10 @@ public class MonaRandomSkyboxAndAudioEditor : Editor
 
         // BUTTONS
 
-        //if (GUILayout.Button(MonaRandomSkyboxAndAudio.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaRandomSkyboxAndAudio.Link1);
-        //}
+        if (GUILayout.Button(MonaRandomSkyboxAndAudio.ButtonTitle1, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaRandomSkyboxAndAudio.Link1);
+        }
 
         GUILayout.Space(1);
 
