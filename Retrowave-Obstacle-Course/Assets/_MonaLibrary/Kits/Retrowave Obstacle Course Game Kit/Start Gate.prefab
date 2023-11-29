@@ -1671,7 +1671,7 @@ GameObject:
   - component: {fileID: 6863987365843928703}
   - component: {fileID: 5426975603231937675}
   m_Layer: 0
-  m_Name: Start Gate - Start Timer
+  m_Name: Start Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
